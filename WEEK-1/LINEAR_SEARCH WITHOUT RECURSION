@@ -31,3 +31,47 @@ int main()
         }
         return 0;
 }
+
+/* input:
+enter the size of array
+5
+enter the elements of array
+1
+enter the elements of array
+2
+enter the elements of array
+3
+enter the elements of array
+4
+enter the elements of array
+5
+enter the key element
+4
+
+output:
+element found at location 4
+
+input:
+enter the size of array
+5
+enter the elements of array
+11
+enter the elements of array
+22
+enter the elements of array
+33
+enter the elements of array
+44
+enter the elements of array
+55
+enter the key element
+77
+
+output:
+element not found */
+
+
+
+
+       
+
