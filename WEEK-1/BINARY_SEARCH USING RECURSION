@@ -31,4 +31,38 @@ void main()
     else
         printf("\n element not found");
 
-}
+/* input:
+enter the size of array
+5
+enter the sorted elements
+1
+2
+3
+4
+5
+enter the element to be searched
+3
+
+output:
+element found at index 3
+
+input:
+enter the size of array 
+5
+enter the sorted elements
+11
+22
+33
+44
+55
+enter the element to be searched
+77
+
+output:
+element not found  */
+
+
+
+
+
+
