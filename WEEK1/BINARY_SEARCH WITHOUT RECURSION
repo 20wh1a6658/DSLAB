@@ -26,3 +26,36 @@ void main()
     else
         printf("the element is not found");
 }
+
+/* input:
+enter the size of the array
+5
+enter the array elements in sorted order
+1
+2
+3
+4
+5
+enter the key element to be searched
+2
+output:
+the element is found at index 2
+
+input:
+enter the size of the array
+5
+enter the array elements in sorted order
+11
+22
+33
+44
+55
+enter the key element to be searched
+77
+the element is not found */
+
+
+
+
+
+
