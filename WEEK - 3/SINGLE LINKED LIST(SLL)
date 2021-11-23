@@ -173,6 +173,7 @@ int main()
                 head = insert_begin(ele);
                 break;
             case 3:
+                scanf("%d", &ele);
                 head = insert_end(ele);
                 break;
             case 4:
@@ -213,3 +214,51 @@ int main()
         }
     }
 }
+
+
+ */ create () output
+ 1-create
+ 2-insert at begin
+ 3-insert at end
+ 4-insert at position
+ 5-delete at begin
+ 6-delete at end
+ 7-delete at position
+ 8-display
+ 9-reverse display
+ 10-search
+ 11-sort
+ 12-exit
+enter your choice 1
+enter no.of nodes 4
+enter data
+4
+enter data
+5
+enter data
+6
+enter data
+7
+ 1-create
+ 2-insert at begin
+ 3-insert at end
+ 4-insert at position
+ 5-delete at begin
+ 6-delete at end
+ 7-delete at position
+ 8-display
+ 9-reverse display
+ 10-search
+ 11-sort
+ 12-exit
+enter your choice 8
+4
+5
+6
+7  */
+
+
+
+
+
+
