@@ -1,0 +1,45 @@
+#include<stdio.h>
+void main()
+{
+    int arr[50], i, n, k, low, mid, high;
+    printf("enter the size of the array\n");
+    scanf("%d", &n);
+    printf("enter the array elements in sorted order\n");
+    for(i = 0; i<n; i++)
+        scanf("%d", &arr[i]);
+    printf("enter the key element to be searched\n");
+    scanf("%d", &k);
+    low = 0;
+    high = n-1;
+    while(high >= low)
+    {
+        mid = (low+high)/2;
+        if (k == arr[mid])
+            break;
+        else if (k > arr[mid])
+            low = mid+1;
+        else
+            high = mid-1;
+    }
+    if (k == arr[mid])
+        printf("the element is found at index %d", mid + 1);
+    else
+        printf("the element is not found");
+}
+
+OUTPUT:-
+/*
+
+enter the size of the array
+5
+enter the array elements in sorted order
+11
+22
+33
+44
+55
+enter the key element to be searched
+44
+the element is found at index 4
+
+*/
